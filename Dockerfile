@@ -3,7 +3,7 @@ FROM openjdk:8u191-jdk-alpine
 
 WORKDIR /usr/local/
 
-COPY banner-0.0.1-SNAPSHOT.jar /usr/local/
+COPY target/banner-0.0.1-SNAPSHOT.jar /usr/local/
 
 EXPOSE 8080
 
